@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-06db4d78cb1d3bbf9" # AMI de Debian 12 en la región us-east-1
+  ami           = "ami-058bd2d568351da34" # AMI de Debian 12 en la región us-east-1
   instance_type = "t2.micro"
   key_name      = "web-tf-ec2" # Sustituye por tu par de claves
   subnet_id     = "subnet-04d5de9fe1f40135b" # Sustituye por la ID de tu subred pública
