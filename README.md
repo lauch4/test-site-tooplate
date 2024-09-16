@@ -1,4 +1,5 @@
 Project for practicing DevOps technologies.
+
 Sample Website deployment on AWS EC2 using Docker, Terraform as IAC and CI/CD with Actions.
 
 Next steps - Host website on S3 and set up monitoring.
